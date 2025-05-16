@@ -254,7 +254,7 @@ function App() {
         </header>
 
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Yes</h1>
+          <h1 style={styles.title}>Yes </h1>
           <h1 style={styles.title}></h1>
         </div>
       </div>
