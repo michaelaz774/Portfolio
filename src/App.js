@@ -246,7 +246,7 @@ function App() {
         </header>
 
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Michael Abou Zeid</h1>
+          <h1 style={styles.title}>Michael</h1>
           <h1 style={styles.title}></h1>
         </div>
       </div>
