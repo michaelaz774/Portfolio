@@ -28,7 +28,7 @@ jobs:
       - name: Deploy to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.michaelabouzeid.com
+          server: michaelabouzeid.com
           username: michaelaz774@michaelabouzeid.com
           password: portfoliosite13
           local-dir: ./build/
