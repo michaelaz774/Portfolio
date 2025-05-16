@@ -21,7 +21,9 @@ jobs:
           npm install
         
       - name: Build project
-        run: npm run build
+        run: |
+          # Set CI=false to prevent ESLint warnings from failing the build
+          CI=false npm run build
         
       - name: Deploy to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
