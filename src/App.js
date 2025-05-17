@@ -75,7 +75,7 @@ function App() {
         </header>
 
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Mikey Mouse final1</h1>
+          <h1 style={styles.title}>Maher</h1>
         </div>
       </div>
     </div>
