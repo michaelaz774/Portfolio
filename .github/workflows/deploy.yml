@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./build/
-          server-dir: /home/michnykq/public_html/
+          server-dir: /public_html
           port: 21
           protocol: ftp
           dangerous-clean-slate: true
