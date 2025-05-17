@@ -75,7 +75,7 @@ function App() {
         </header>
 
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Test1</h1>
+          <h1 style={styles.title}>Mikey Mouse</h1>
         </div>
       </div>
     </div>
