@@ -75,7 +75,7 @@ function App() {
         </header>
 
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Yes</h1>
+          <h1 style={styles.title}>Test</h1>
         </div>
       </div>
     </div>
