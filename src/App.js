@@ -285,7 +285,7 @@ function App() {
           <section style={styles.hero}>
             <div style={styles.heroContent}>
               <h1 style={styles.heroTitle}>
-                Connor is gay
+                Bringing AI research to the forefront of human experiences 
               </h1>
               <p style={styles.subtitle}>
                 Beyond artificial. Intelligence that feels symbiotic and innate
