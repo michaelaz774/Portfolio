@@ -219,7 +219,7 @@ function App() {
       <div style={styles.container}>
         <div style={styles.contentContainer}>
           <header style={styles.header}>
-            <div style={styles.logo}>Your Name*</div>
+            <div style={styles.logo}></div>
             <nav>
               <ul style={styles.nav}>
                 <li style={styles.navItem}>
@@ -228,8 +228,8 @@ function App() {
                   </a>
                 </li>
                 <li style={styles.navItem}>
-                  <a href="#service" style={styles.navLink}>
-                    Service
+                  <a href="#services" style={styles.navLink}>
+                    Services
                   </a>
                 </li>
                 <li style={styles.navItem}>
@@ -244,9 +244,6 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <a href="#blog" style={styles.ctaButton}>
-              read our blog
-            </a>
           </header>
 
           <section style={styles.hero}>
@@ -277,7 +274,7 @@ function App() {
         <div style={styles.contentContainer}>
           <section style={styles.descriptionSection}>
             <div style={styles.mainDescription}>
-              We are Your Name — empowering teams with AI. Our agents
+              Website under developement. Placeholdr text: Our agents
               autonomously handle a range of tasks from drafting and reviewing
               documents to triaging incoming requests and completing compliance
               forms.
@@ -285,18 +282,19 @@ function App() {
 
             <div style={styles.columns}>
               <div style={styles.column}>
-                Everyone is building more software. More platforms. More
-                dashboards. We've built something different. At Your Name, we're
-                not adding more tools. Instead, we enable you to deploy
-                autonomous agents that take on your overflow and repetitive
-                work.
+                Website under developement. Placeholdr text: Everyone is
+                building more software. More platforms. More dashboards. We've
+                built something different. At Your Name, we're not adding more
+                tools. Instead, we enable you to deploy autonomous agents that
+                take on your overflow and repetitive work.
               </div>
               <div style={styles.column}>
-                Our agents triage inbound requests. Draft and review content.
-                Complete security forms. And they get better every time they
-                work. You won't see them. You'll just feel the lift — in time,
-                in focus, in momentum. If that's the kind of change you've been
-                waiting for, let's talk.
+                Website under developement. Placeholdr text: Our agents triage
+                inbound requests. Draft and review content. Complete security
+                forms. And they get better every time they work. You won't see
+                them. You'll just feel the lift — in time, in focus, in
+                momentum. If that's the kind of change you've been waiting for,
+                let's talk.
               </div>
             </div>
           </section>
@@ -318,13 +316,12 @@ function App() {
 
           <section style={styles.productUpdate}>
             <h2 style={styles.productUpdateHeading}>
-              Our latest and most exciting product update is launching soon.
-              Stay tuned.
+              Website under developement Stay tuned.
             </h2>
           </section>
 
           <footer style={styles.footer}>
-            <div>2025 Your Name</div>
+            <div>2025 MichaelAbouZeid</div>
             <div>
               <a href="#privacy" style={styles.footerLink}>
                 Privacy Policy
