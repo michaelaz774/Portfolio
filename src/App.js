@@ -101,28 +101,64 @@ function App() {
       border: "1px dashed rgba(255, 255, 255, 0.3)",
     },
 
-    // Description section
-    descriptionSection: {
-      margin: "160px 0",
+    // New Feature Cards Section
+    featureCardsSection: {
+      margin: "120px 0",
     },
-    mainDescription: {
-      fontSize: "1.5rem",
-      fontWeight: "400",
-      marginBottom: "60px",
-      lineHeight: "1.4",
-      fontFamily: "Inter, sans-serif",
-    },
-    columns: {
+    featureCardsGrid: {
       display: "flex",
       justifyContent: "space-between",
-      marginTop: "80px",
+      gap: "30px",
     },
-    column: {
-      flex: "0 0 48%",
-      fontSize: "0.95rem",
-      fontWeight: "300",
-      lineHeight: "1.7",
+    featureCard: {
+      flex: "1",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+    },
+
+    featureImageContainer: {
+      width: "100%",
+      height: "450px",
+      marginBottom: "2px",
+      overflow: "hidden",
+      backgroundColor: "#f5f5f5",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      position: "relative",
+      borderRadius: "15px",
+    },
+    featureImage: {
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+    },
+    featureTitle: {
+      fontSize: "1.5rem",
+      fontWeight: "500",
+      marginBottom: "16px",
+      textAlign: "center",
       fontFamily: "Inter, sans-serif",
+    },
+    featureText: {
+      fontSize: "0.95rem",
+      lineHeight: "1.6",
+      textAlign: "center",
+      color: "#555",
+      fontFamily: "Inter, sans-serif",
+    },
+    featureImagePlaceholder: {
+      position: "absolute",
+      top: "0",
+      left: "0",
+      width: "100%",
+      height: "100%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      color: "#888",
+      fontSize: "1rem",
     },
 
     // Features section
@@ -219,7 +255,7 @@ function App() {
       <div style={styles.container}>
         <div style={styles.contentContainer}>
           <header style={styles.header}>
-            <div style={styles.logo}></div>
+            <div style={styles.logo}>MichaelAbouZeid</div>
             <nav>
               <ul style={styles.nav}>
                 <li style={styles.navItem}>
@@ -228,8 +264,8 @@ function App() {
                   </a>
                 </li>
                 <li style={styles.navItem}>
-                  <a href="#services" style={styles.navLink}>
-                    Services
+                  <a href="#service" style={styles.navLink}>
+                    Service
                   </a>
                 </li>
                 <li style={styles.navItem}>
@@ -249,7 +285,7 @@ function App() {
           <section style={styles.hero}>
             <div style={styles.heroContent}>
               <h1 style={styles.heroTitle}>
-                Where intelligence meets human intuition
+                Bringing AI research to the forefront
               </h1>
               <p style={styles.subtitle}>
                 Beyond artificial. Intelligence that feels symbiotic and innate
@@ -258,43 +294,53 @@ function App() {
                 href="#demo"
                 style={{ ...styles.ctaButton, ...styles.heroCta }}
               >
-                get a demo
+                Explore
               </a>
             </div>
-            <div style={styles.heroImage}>
-              <div style={styles.placeholderImage}>
-                Flower Image Placeholder
-              </div>
-            </div>
+            <img src="/landing1.jpeg" alt="none" style={styles.heroImg} />
           </section>
         </div>
       </div>
 
       <div style={styles.whiteSection}>
         <div style={styles.contentContainer}>
-          <section style={styles.descriptionSection}>
-            <div style={styles.mainDescription}>
-              Website under developement. Placeholdr text: Our agents
-              autonomously handle a range of tasks from drafting and reviewing
-              documents to triaging incoming requests and completing compliance
-              forms.
-            </div>
-
-            <div style={styles.columns}>
-              <div style={styles.column}>
-                Website under developement. Placeholdr text: Everyone is
-                building more software. More platforms. More dashboards. We've
-                built something different. At Your Name, we're not adding more
-                tools. Instead, we enable you to deploy autonomous agents that
-                take on your overflow and repetitive work.
+          {/* New Feature Cards Section with 3 Images and Text */}
+          <section style={styles.featureCardsSection}>
+            <div style={styles.featureCardsGrid}>
+              {/* Feature Card 1 */}
+              <div style={styles.featureCard}>
+                <div style={styles.featureImageContainer}>
+                  <img
+                    src="/imageL.jpeg"
+                    alt="Feature 1"
+                    style={styles.featureImage}
+                  />
+                  <div style={styles.featureImagePlaceholder}></div>
+                </div>
               </div>
-              <div style={styles.column}>
-                Website under developement. Placeholdr text: Our agents triage
-                inbound requests. Draft and review content. Complete security
-                forms. And they get better every time they work. You won't see
-                them. You'll just feel the lift — in time, in focus, in
-                momentum. If that's the kind of change you've been waiting for,
-                let's talk.
+
+              {/* Feature Card 2 */}
+              <div style={styles.featureCard}>
+                <div style={styles.featureImageContainer}>
+                  <img
+                    src="/imageM.jpeg"
+                    alt="Feature 2"
+                    style={styles.featureImage}
+                  />
+                  <div style={styles.featureImagePlaceholder}></div>
+                </div>
+              </div>
+
+              {/* Feature Card 3 */}
+              <div style={styles.featureCard}>
+                <div style={styles.featureImageContainer}>
+                  <img
+                    src="/imageR.jpeg"
+                    alt="Feature 3"
+                    style={styles.featureImage}
+                  />
+                  <div style={styles.featureImagePlaceholder}></div>
+                </div>
               </div>
             </div>
           </section>
@@ -304,14 +350,12 @@ function App() {
       <div style={styles.container}>
         <div style={styles.contentContainer}>
           <section style={styles.features}>
-            <div style={styles.featureOrange}>Proactive</div>
-            <div style={styles.featurePlant}>
-              Autonomous
-              <div style={styles.featurePlantPlaceholder}>
+            <div style={styles.featureOrange}></div>
+            <div style={styles.featurePlant}><div style={styles.featurePlantPlaceholder}>
                 Plant Imagery Placeholder
               </div>
             </div>
-            <div style={styles.featurePurple}>Steerable</div>
+            <div style={styles.featurePurple}></div>
           </section>
 
           <section style={styles.productUpdate}>
