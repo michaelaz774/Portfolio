@@ -360,7 +360,7 @@ function App() {
 
           <section style={styles.productUpdate}>
             <h2 style={styles.productUpdateHeading}>
-              Website under developement Stay tuned.
+              Website under developement
             </h2>
           </section>
 
